@@ -9,7 +9,9 @@ The code solves the group analysis of data taken with a "FLIR" thermograph. The 
 - Clusterize the sample image with Kmeans.
 - Statistical analysis of the clustered image.
 - Export the results in '.csv' format.
-#How to Cite
+
+## Dataset used on the project
+![alt text](https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/thermals.png)
 
 ## First part
 ### Employee library
@@ -54,6 +56,8 @@ for filename in glob.glob('Imagenes Exp/*.jpg'):
     Temperaturas=flir.get_thermal_np()
     List_Temp.append(Temperaturas)
 ```
+- A typical thermal Image
+![alt text](https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/FLIR_THER(244).jpg)
 ## Second part
 - Function for generating raster images from the arrangements saved in "List_Temp".
 ```python
@@ -93,6 +97,7 @@ for Temperaturas2 in List_Temp:
 ```python
 demFile.plot()
 ```
+![alt text](https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/download%202.png)
 ## Third part
 - Extraction of the spatial metadata from the raster image to later transfer it to the image to be sampled.
 ```python
@@ -124,6 +129,7 @@ for Temperaturas5 in List_Temp4:
 ```python
  Temperaturas5.plot()
 ```
+![alt text](https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/download%201.png)
 ## Fourth part
 - Convert the sampled image into an arrangement.
 ```python
@@ -143,6 +149,8 @@ for CortadoA in List_Temp5:
     X_cluster = X_cluster.reshape(CortadoA.shape)
     List_Temp7.append(X_cluster)
  ```
+- Example of clusterized image
+![alt text](https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/download%203.png)
 - Extract the data according to the cluster "df_name" of 'Clase'.
 - Save the data of "df_name" in a temporary list "List_Temp8".
 ```python
