@@ -228,3 +228,6 @@ for df_col in List_Temp10:
 fox = pd.DataFrame(List_Temp12) 
 fox.to_csv('result.csv', sep=',', index=False)
 ```
+# How to cite
+
+[logo]: https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/unesp-logo.png
