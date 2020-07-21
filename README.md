@@ -1,4 +1,4 @@
-# ALGORITHM-OF-ANALYSIS-AND-CLUSTERIZATION-OF-THERMOGRAPHIC-IMAGES-FLIR---Developed-at-Unesp.
+# CLUSTERIZATION OF THERMOGRAPHIC IMAGES FLIR.
 
 Objective of the project
 The code solves the group analysis of data taken with a "FLIR" thermograph. The objective of this code is a tool that processes hundreds of thermal images from an experiment conducted on birds of different ages, the images are treated in the following processes:
