@@ -150,7 +150,7 @@ for CortadoA in List_Temp5:
     X_cluster = X_cluster.reshape(CortadoA.shape)
     List_Temp7.append(X_cluster)
  ```
-- Example of clusterized image
+# Example of clusterized image
 ![alt text](https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/download%203.png)
 - Extract the data according to the cluster "df_name" of 'Clase'.
 - Save the data of "df_name" in a temporary list "List_Temp8".
