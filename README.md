@@ -56,7 +56,7 @@ for filename in glob.glob('Imagenes Exp/*.jpg'):
     Temperaturas=flir.get_thermal_np()
     List_Temp.append(Temperaturas)
 ```
-- A typical thermal Image
+# A typical thermal Image
 ![alt text](https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/FLIR_THER(244).jpg)
 ## Second part
 - Function for generating raster images from the arrangements saved in "List_Temp".
@@ -130,6 +130,7 @@ for Temperaturas5 in List_Temp4:
  Temperaturas5.plot()
 ```
 ![alt text](https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/download%201.png)
+
 ## Fourth part
 - Convert the sampled image into an arrangement.
 ```python
