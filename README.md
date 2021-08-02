@@ -1,7 +1,8 @@
 # CLUSTERIZATION OF THERMOGRAPHIC IMAGES "FLIR".
 
-Objective of the project
-The code solves the group analysis of data taken with a "FLIR" thermograph. The objective of this code is a tool that processes hundreds of thermal images from an experiment conducted on birds of different ages, the images are treated in the following processes:
+The present material was developed by Poultry Science Laboratory (Lavinesp, FCAV-Unesp) with the financial support of FAPESP under the advice PhD. Nilva Sakomura.
+The purpose of the project solves one group analysis of data taken with a "FLIR" thermograph. The aim of this code is a processes tool of set thermal images from an experiment conducted on birds of different ages, and treated it following the subsequent processes:
+
 ## Features
 - Import metadata from FLIR camera.
 - Convert the image to a raster image.
