@@ -229,7 +229,7 @@ fox = pd.DataFrame(List_Temp12)
 fox.to_csv('result.csv', sep=',', index=False)
 ```
 # How to cite
-Riveros, C. ; Leme, B. (2020, June 17). Thermalcluster: Thermal Image Analysis and Cluster of chickens at different ages.
+Riveros, C. ; Leme, B.; Sakomura, N. (2020, June 17). Thermalcluster: Thermal Image Analysis and Cluster of chickens at different ages.
 [![DOI](https://zenodo.org/badge/281267755.svg)](https://zenodo.org/badge/latestdoi/281267755)
 
 ![alt text](https://github.com/Chis01/CLUSTERIZATION-THERMAL-IMAGES-FLIR/blob/master/Images/unesp-logo.png)
