@@ -1,6 +1,7 @@
 # CLUSTERIZATION OF THERMOGRAPHIC IMAGES "FLIR".
 
 The present material was developed by Poultry Science Laboratory (Lavinesp, FCAV-Unesp) with the financial support of FAPESP under the advice PhD. Nilva Sakomura.
+
 The purpose of the project solves one group analysis of data taken with a "FLIR" thermograph. The aim of this code is a processes tool of set thermal images from an experiment conducted on birds of different ages, and treated it following the subsequent processes:
 
 ## Features
